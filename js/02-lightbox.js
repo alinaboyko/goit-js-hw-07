@@ -25,18 +25,18 @@ function createGalleryMarkup(galleryItems) {
     
 };
 
-function onPictureClick(evt) {
+// function onPictureClick(evt) {
     
-    const galleryImage = evt.target.classList.contains('gallery__image');
+//     const galleryImage = evt.target.classList.contains('gallery__image');
   
-    if (!galleryImage) {
-      return;
-    }
-  }
+//     if (!galleryImage) {
+//       return;
+//     }
+//   }
   
-  const lightbox = new SimpleLightbox('.gallery a', {
-    captionsData: 'alt',
-    captionDelay: 250,
+const lightbox = new SimpleLightbox('.gallery a', {
+  captionsData: 'alt',
+  captionDelay: 250,
   });
 
 

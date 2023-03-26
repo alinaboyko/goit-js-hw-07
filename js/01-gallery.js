@@ -8,7 +8,7 @@ const galleryEl = document.querySelector('.gallery');
 const galleryMarkup = createGalleryMarkup(galleryItems);
 galleryEl.insertAdjacentHTML('beforeend', galleryMarkup);
 
-galleryEl.addEventListener('click', onPictureClick);
+window.addEventListener('click', onPictureClick);
 
 
 function createGalleryMarkup(galleryItems) {
